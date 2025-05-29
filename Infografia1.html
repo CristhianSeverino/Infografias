@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformando ML en Impacto Real con Google Colab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F0F0F0; /* Light Gray */
+            color: #333333; /* Dark Gray */
+        }
+        .material-card {
+            background-color: #FFFFFF; /* White */
+            border-radius: 0.75rem; /* 12px */
+            box-shadow: 0 6px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            padding: 2rem; /* 32px */
+            margin-bottom: 2rem; /* 32px */
+        }
+        .primary-color { color: #FF6B6B; } /* Lively Coral */
+        .secondary-color { color: #4ECDC4; } /* Aqua Green */
+        .accent-color { color: #F7B733; } /* Sunny Yellow */
+        .dark-teal { color: #1A535C; } /* Dark Teal */
+        .bg-primary { background-color: #FF6B6B; }
+        .bg-secondary { background-color: #4ECDC4; }
+        .bg-accent { background-color: #F7B733; }
+        .bg-dark-teal { background-color: #1A535C; }
+        .text-primary { color: #FF6B6B; }
+        .text-secondary { color: #4ECDC4; }
+        .text-accent { color: #F7B733; }
+        .text-dark-teal { color: #1A535C; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center py-16 material-card bg-gradient-to-r from-[#FF6B6B] to-[#F7B733]">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4 leading-tight">
+                La historia de cómo transformo ideas de Machine Learning en <span class="text-[#1A535C]">impacto real</span>. 🚀
+            </h1>
+            <p class="text-lg md:text-xl text-white max-w-3xl mx-auto">
+                Descubre cómo Google Colab se ha convertido en el pilar de mi viaje profesional en Machine Learning, impulsando la innovación y entregando valor tangible.
+            </p>
+            <p class="text-sm text-white mt-6">
+               Soy Cristhian Calle | Profesional de Machine Learning Orientado a Resultados
+            </p>
+        </header>
+
+        <section class="py-12">
+            <div class="material-card">
+                <h2 class="text-3xl font-bold text-center mb-6 text-dark-teal">
+                    ¿Cómo convertimos conceptos complejos en soluciones tangibles?
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <p class="text-lg text-gray-700 mb-4">
+                            En el dinámico mundo del Machine Learning, la brecha entre una idea brillante y una solución funcional puede ser un desafío. Requiere no solo conocimiento técnico, sino también **eficiencia, agilidad y acceso a recursos**.
+                        </p>
+                        <p class="text-lg text-gray-700">
+                            Detrás de cada modelo predictivo o sistema inteligente que he desarrollado, hay una herramienta que ha sido fundamental en mi viaje: **Google Colab**.
+                        </p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center p-4 bg-gray-50 rounded-lg">
+                        <span class="text-6xl mb-4">💡</span>
+                        <p class="text-xl font-semibold text-center text-primary-color">
+                            Colab: Donde la curiosidad se encuentra con la eficiencia.
+                        </p>
+                        <p class="text-center text-gray-600 mt-2">
+                            Transformando ideas en resultados medibles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12">
+            <div class="material-card">
+                <h2 class="text-3xl font-bold text-center mb-8 text-secondary-color">
+                    Mi Ecosistema de Innovación: ¿Por qué Colab es irremplazable? 🧠
+                </h2>
+                <p class="text-center text-lg text-gray-700 mb-10 max-w-3xl mx-auto">
+                    En el vertiginoso mundo del Machine Learning, cada minuto cuenta. Los reclutadores y líderes de equipo buscan profesionales que no solo conozcan la teoría, sino que sepan **ejecutar con agilidad y escalabilidad**. Aquí es donde Colab entra en juego en mi flujo de trabajo:
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <div class="flex items-start p-6 bg-blue-50 rounded-lg shadow-sm">
+                        <span class="text-4xl mr-4 text-blue-600">⚡</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2 text-dark-teal">Prototipado a la Velocidad del Pensamiento</h3>
+                            <p class="text-gray-700">
+                                Olvídate de configuraciones interminables. Con Colab, mis ideas más ambiciosas toman forma en minutos. Desde redes neuronales profundas hasta complejos modelos de clasificación, puedo **iterar, probar y ajustar** con una fluidez que solo un entorno con acceso gratuito a GPUs y TPUs puede ofrecer. Esto significa que los proyectos avanzan más rápido de lo que podrías imaginar.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start p-6 bg-green-50 rounded-lg shadow-sm">
+                        <span class="text-4xl mr-4 text-green-600">📊</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2 text-dark-teal">Dominando Datos, Impulsando Decisiones</h3>
+                            <p class="text-gray-700">
+                                Un buen modelo de ML nace de datos bien entendidos. Colab es mi lienzo para el análisis exploratorio de datos (EDA), donde visualizo patrones ocultos, limpio y preproceso conjuntos de datos masivos con Pandas y NumPy. Mi objetivo no es solo manipular datos, sino transformarlos en **conocimiento accionable** que impulse decisiones estratégicas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start p-6 bg-purple-50 rounded-lg shadow-sm">
+                        <span class="text-4xl mr-4 text-purple-600">🎯</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2 text-dark-teal">Énfasis en la Solución, No en la Infraestructura</h3>
+                            <p class="text-gray-700">
+                                Las empresas buscan valor. Con Colab, puedo enfocar mi energía en la **resolución de problemas complejos** y en la **creación de valor**, en lugar de perder tiempo en la gestión de infraestructura. Esto se traduce en **proyectos entregables en menos tiempo**, y en soluciones que realmente marcan la diferencia. Además, mi familiaridad con el uso de modelos pre-entrenados y técnicas de Transfer Learning en Colab me permite acelerar el desarrollo de soluciones robustas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start p-6 bg-yellow-50 rounded-lg shadow-sm">
+                        <span class="text-4xl mr-4 text-yellow-600">🤝</span>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2 text-dark-teal">Colaboración sin Límites, Impacto Conjunto</h3>
+                            <p class="text-gray-700">
+                                El Machine Learning es un deporte de equipo. La capacidad de compartir mis notebooks de Colab me permite colaborar eficazmente, recibir feedback y presentar mis hallazgos de forma interactiva. Busco ambientes donde el **conocimiento fluye y el impacto se multiplica**.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12">
+            <div class="material-card">
+                <h2 class="text-3xl font-bold text-center mb-8 text-accent-color">
+                    Mi Habilidad en Acción: Potenciando con LLMs 🤖
+                </h2>
+                <p class="text-center text-lg text-gray-700 mb-10 max-w-3xl mx-auto">
+                    Demuestro mi capacidad para integrar y aplicar modelos de lenguaje avanzados. ¡Prueba estas interacciones impulsadas por la API de Gemini!
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="flex flex-col p-6 bg-red-50 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold mb-4 text-dark-teal">✨ Generador de Ideas de Proyectos ML</h3>
+                        <p class="text-gray-700 mb-4">
+                            Introduce una palabra clave (ej. "salud", "finanzas", "educación") y la IA te sugerirá una idea de proyecto de Machine Learning.
+                        </p>
+                        <input type="text" id="projectIdeaInput" placeholder="Ej: 'retail' o 'medio ambiente'" class="p-3 border border-gray-300 rounded-md mb-4 focus:outline-none focus:ring-2 focus:ring-primary-color">
+                        <button id="generateIdeaBtn" class="bg-primary hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md shadow-md transition duration-300 transform hover:scale-105">
+                            Generar Idea ✨
+                        </button>
+                        <div id="projectIdeaOutput" class="mt-6 p-4 bg-gray-100 rounded-md border border-gray-200 text-gray-800 hidden">
+                            <p class="font-semibold text-dark-teal mb-2">Idea Sugerida:</p>
+                            <p id="projectIdeaText"></p>
+                        </div>
+                        <div id="projectIdeaLoading" class="mt-6 text-center text-gray-600 hidden">Cargando idea...</div>
+                    </div>
+
+                    <div class="flex flex-col p-6 bg-blue-50 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold mb-4 text-dark-teal">✨ Resumidor de Conceptos ML</h3>
+                        <p class="text-gray-700 mb-4">
+                            Escribe un concepto de ML (ej. "Redes Neuronales Convolucionales", "Overfitting") y obtén un resumen conciso y amigable para reclutadores.
+                        </p>
+                        <input type="text" id="conceptSummaryInput" placeholder="Ej: 'Aprendizaje por Refuerzo'" class="p-3 border border-gray-300 rounded-md mb-4 focus:outline-none focus:ring-2 focus:ring-secondary-color">
+                        <button id="summarizeConceptBtn" class="bg-secondary hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md shadow-md transition duration-300 transform hover:scale-105">
+                            Resumir Concepto ✨
+                        </button>
+                        <div id="conceptSummaryOutput" class="mt-6 p-4 bg-gray-100 rounded-md border border-gray-200 text-gray-800 hidden">
+                            <p class="font-semibold text-dark-teal mb-2">Resumen:</p>
+                            <p id="conceptSummaryText"></p>
+                        </div>
+                        <div id="conceptSummaryLoading" class="mt-6 text-center text-gray-600 hidden">Resumiendo concepto...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12">
+            <div class="material-card text-center bg-dark-teal text-white">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-accent-color">
+                    Google Colab: Más que una herramienta, un acelerador de carrera.
+                </h2>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8">
+                    Me permite no solo aplicar las técnicas más avanzadas de Machine Learning, sino también demostrar **agilidad, proactividad y una mentalidad orientada a resultados**.
+                </p>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto mb-10">
+                    Si estás buscando a alguien que no solo hable de Machine Learning, sino que lo haga realidad, optimizando recursos y tiempos, ¡conectemos! Me encantaría compartir cómo mis proyectos con Colab han generado un impacto tangible.
+                </p>
+                <a href="[Tu Perfil de LinkedIn Aquí]" target="_blank" class="inline-block bg-primary hover:bg-opacity-90 text-white font-bold py-4 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                    ¡Conectemos en LinkedIn!
+                </a>
+                <p class="text-gray-300 mt-6 text-sm">
+                    ¿Qué otras herramientas consideras esenciales para el éxito en el desarrollo de soluciones de Machine Learning? ¡Déjame tus comentarios! 👇
+                </p>
+            </div>
+        </section>
+
+        <footer class="text-center py-8 text-gray-600 text-sm">
+            #MachineLearning #DataScience #GoogleColab #Innovación #Reclutamiento #TalentoTech #DeepLearning #IA
+        </footer>
+
+    </div>
+
+    <script>
+        const apiKey = ""; // Leave this as-is; Canvas will provide the API key at runtime.
+
+        async function callGeminiAPI(prompt) {
+            const chatHistory = [];
+            chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+            const payload = { contents: chatHistory };
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const result = await response.json();
+                if (result.candidates && result.candidates.length > 0 &&
+                    result.candidates[0].content && result.candidates[0].content.parts &&
+                    result.candidates[0].content.parts.length > 0) {
+                    return result.candidates[0].content.parts[0].text;
+                } else {
+                    console.error("Unexpected API response structure:", result);
+                    return "Error: No se pudo obtener una respuesta válida.";
+                }
+            } catch (error) {
+                console.error("Error calling Gemini API:", error);
+                return "Error al conectar con la IA. Inténtalo de nuevo.";
+            }
+        }
+
+        // Generador de Ideas de Proyectos ML
+        const projectIdeaInput = document.getElementById('projectIdeaInput');
+        const generateIdeaBtn = document.getElementById('generateIdeaBtn');
+        const projectIdeaOutput = document.getElementById('projectIdeaOutput');
+        const projectIdeaText = document.getElementById('projectIdeaText');
+        const projectIdeaLoading = document.getElementById('projectIdeaLoading');
+
+        generateIdeaBtn.addEventListener('click', async () => {
+            const keyword = projectIdeaInput.value.trim();
+            if (!keyword) {
+                projectIdeaText.textContent = "Por favor, introduce una palabra clave.";
+                projectIdeaOutput.classList.remove('hidden');
+                return;
+            }
+
+            projectIdeaLoading.classList.remove('hidden');
+            projectIdeaOutput.classList.add('hidden');
+            projectIdeaText.textContent = '';
+
+            const prompt = `Genera una idea de proyecto de Machine Learning innovadora y concisa relacionada con la industria o tema de "${keyword}". La idea debe ser atractiva para un reclutador y destacar un problema a resolver y una posible solución con ML. Sé breve y directo.`;
+            const idea = await callGeminiAPI(prompt);
+
+            projectIdeaText.textContent = idea;
+            projectIdeaOutput.classList.remove('hidden');
+            projectIdeaLoading.classList.add('hidden');
+        });
+
+        // Resumidor de Conceptos ML
+        const conceptSummaryInput = document.getElementById('conceptSummaryInput');
+        const summarizeConceptBtn = document.getElementById('summarizeConceptBtn');
+        const conceptSummaryOutput = document.getElementById('conceptSummaryOutput');
+        const conceptSummaryText = document.getElementById('conceptSummaryText');
+        const conceptSummaryLoading = document.getElementById('conceptSummaryLoading');
+
+        summarizeConceptBtn.addEventListener('click', async () => {
+            const concept = conceptSummaryInput.value.trim();
+            if (!concept) {
+                conceptSummaryText.textContent = "Por favor, introduce un concepto de Machine Learning.";
+                conceptSummaryOutput.classList.remove('hidden');
+                return;
+            }
+
+            conceptSummaryLoading.classList.remove('hidden');
+            conceptSummaryOutput.classList.add('hidden');
+            conceptSummaryText.textContent = '';
+
+            const prompt = `Explica el concepto de Machine Learning "${concept}" de forma muy concisa y en un lenguaje sencillo, que sea fácil de entender para alguien sin conocimientos técnicos profundos, como un reclutador. Destaca su propósito o aplicación principal.`;
+            const summary = await callGeminiAPI(prompt);
+
+            conceptSummaryText.textContent = summary;
+            conceptSummaryOutput.classList.remove('hidden');
+            conceptSummaryLoading.classList.add('hidden');
+        });
+    </script>
+</body>
+</html>
